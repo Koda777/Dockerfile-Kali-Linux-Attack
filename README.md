@@ -1,6 +1,6 @@
-# Dockerfile KaliLinux
+# Kali-Linux Dockerfile
 
-This Dockerfile sets up a Kali Linux environment with some useful tools for Hack The Box (HTB).
+This Dockerfile sets up a Kali Linux environment with some useful tools and can be used for Hack The Box (HTB), TryHackMe ect.
 
 ## Installed Tools
 
