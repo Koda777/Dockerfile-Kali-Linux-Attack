@@ -1,4 +1,4 @@
-# Config Kali Linux for HTB
+# Dockerfile KaliLinux
 
 This Dockerfile sets up a Kali Linux environment with some useful tools for Hack The Box (HTB).
 
