@@ -48,13 +48,19 @@ This Dockerfile sets up a Kali Linux environment with some useful tools and can 
 
 ## Usage
 
-1. Clone the repository: `git clone https://github.com/yourusername/your-repo.git`
-2. Navigate to the cloned repository: `cd your-repo`
-3. Build the Docker image: `docker build -t htb-kali .`
-4. Run the Docker container and mount the /htb directory: `docker run -it -v /path/to/your/ovpn/folder:/htb htb-kali`
-5. Inside the container, connect to your VPN using the .ovpn file in the /htb directory: `openvpn /htb/lab/your-ovpn-file.ovpn`
+1. Clone the repository: `git clone https://github.com/Koda777/Dockerfile-Kali-Linux-Attack.git`
+2. Navigate to the cloned repository: `cd Dockerfile-Kali-Linux-Attack`
+3. Build the Docker image: `docker build -t kali-attack .`
+4. Run the Docker container and mount the /box directory: `docker run -it -p 8080:8080 kali-attack`
 
-Note: Make sure to replace `/path/to/your/ovpn/folder` and `your-ovpn-file.ovpn` with the actual path to your OpenVPN file.
+# Optional
+
+## Optional
+
+If you already have an .ovpn file, you can simply place it in the `ovpn` folder.
+
+1. Place your .ovpn file in the `ovpn` folder.
+2. Run the following command to launch OpenVPN with your .ovpn file when the machine is running `openvpn /box/lab/{your_file.ovpn}
 
 ## Proxychains
 
