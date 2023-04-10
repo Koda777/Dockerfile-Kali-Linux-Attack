@@ -21,7 +21,7 @@ COPY config/proxychains.conf /etc/proxychains.conf
 
 # Create htb folder and copy the ovpn file to it
 RUN mkdir -p /box/lab
-COPY ovpn/* /htb/lab/ || true
+COPY ovpn/* /box/lab/ || true
 
 # Install ZSH shell with custom settings and set it as default shell
 RUN apt -y install zsh
