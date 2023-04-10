@@ -58,7 +58,7 @@ This Dockerfile sets up a Kali Linux environment with some useful tools and can 
 If you already have an .ovpn file, you can simply place it in the `ovpn` folder.
 
 1. Place your .ovpn file in the `ovpn` folder.
-2. Run the following command to launch OpenVPN with your .ovpn file when the machine is running `openvpn /box/lab/{your_file.ovpn}`
+2. Run the following command to launch OpenVPN with your .ovpn file when the machine is running `openvpn /box/lab/{your_file}.ovpn`
 
 ## Proxychains
 
